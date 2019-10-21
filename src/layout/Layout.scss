@@ -4,10 +4,9 @@
   height: 80vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
 
   @media only screen  and (max-width: 500px) {
-    // height: 100%;
 
   }
 }

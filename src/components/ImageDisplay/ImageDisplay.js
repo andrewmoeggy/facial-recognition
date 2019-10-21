@@ -5,13 +5,16 @@ const ImageDisplay = ({ image, box }) => {
   let imgDisplay = '';
   image === '' ?
     imgDisplay = '' :
-    imgDisplay = <img className="image-display__image" src={image} alt="searched-face" />;
+    imgDisplay = <img className="image-display__image" src={image} alt="searched-face" height="300px" width="auto" />;
 
   return (
-    <div className="image-display">
-      {imgDisplay}
-      <div className="bounding-box" style={{ top: box.topRow, left: box.leftCol, bottom: box.bottomRow, right: box.rightCol }}></div>
+    <div className="image-display-rel">
+      <div className="image-display-ab">
+        {imgDisplay}
+        <div className="bounding-box" style={{ top: box.topRow, left: box.leftCol, bottom: box.bottomRow, right: box.rightCol }}></div>
+      </div>
     </div>
+
   );
 }
 // topRow: 11.669046

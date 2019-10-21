@@ -1,15 +1,17 @@
-.image-display {
+.image-display-rel {
   position: relative;
-  z-index: 100;
-  background: linear-gradient(white, rgb(109, 208, 176));
   grid-column: 1 / -1;
-  grid-row: 5 / -1;
+  grid-row: 6 / -1;
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 30rem;
- 
+  background: linear-gradient(rgb(127, 209, 174), rgb(109, 208, 176));
+}
+.image-display-ab {
+  position: absolute;
+  margin-top: 1rem;
 
   &__image {
     height: 30rem;
@@ -19,7 +21,7 @@
 
 .bounding-box {
   position: absolute;
-  box-shadow: 0 0 0 3px #149df2;
+  box-shadow: 0 0 0 3px #bf550f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
