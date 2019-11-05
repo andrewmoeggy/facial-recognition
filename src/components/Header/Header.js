@@ -6,7 +6,6 @@ const Header = () => {
     <header className="header">
       <nav className="header__nav">
         <h1 className="header__nav--h1">Face Recog</h1>
-
       </nav>
     </header>
   );
