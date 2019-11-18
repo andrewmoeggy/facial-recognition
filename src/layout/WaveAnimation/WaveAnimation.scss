@@ -19,7 +19,7 @@
   margin: auto;
   z-index: -1;
   opacity: 1;
-  background-color: rgb(23, 67, 171);
+  background-color: rgb(150, 181, 255);
 }
 .waveWrapperInner {
   position: absolute;
@@ -27,7 +27,6 @@
   overflow: hidden;
   height: 100%;
   bottom: -1px;
-  background-image: linear-gradient(to top, rgb(6, 36, 106) 20%, rgb(23, 67, 171) 80%);
 }
 .bgTop {
   z-index: 15;

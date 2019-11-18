@@ -4,14 +4,13 @@
   justify-content: space-between;
   grid-column: 1 / -1;
   grid-row: 2 / 6;
-  background: linear-gradient(rgb(23, 67, 171), rgb(127, 157, 209));
-
+  background: rgb(218, 220, 221);
   &__heading {
     font-size: 3.3rem;
     text-transform: uppercase;
     margin-top: 3rem;
     font-weight: 100;
-    color: #ccc;
+    color: rgb(28, 36, 132);
   }
 
   &__section {
@@ -54,7 +53,7 @@
 
   &__button {
     padding: 1.3rem 2.2rem;
-    background-color: rgb(34, 191, 181);
+    background-color: rgb(39, 34, 191);
     font-size: 1.5rem;
     border-radius: 1.5rem;
     border: none;
