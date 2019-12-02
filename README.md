@@ -2,7 +2,6 @@
 ## Simple Facial Recognition React App using the Clarifai API
 ## Enter a valid URL to detect faces!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
